@@ -1,6 +1,8 @@
 .header {
   background-color: #2C2F33;
   overflow: hidden;
+  width: 100%;
+  min-width: 1180px;
 }
 
 .headerContent {

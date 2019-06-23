@@ -1,0 +1,46 @@
+.jobBox {
+  overflow: hidden;
+  position: relative;
+}
+
+.jobHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 49px;
+  border-bottom: 1px solid rgba(31,56,88,0.06);
+  padding: 0 14px;
+  background: white;
+  font-size: 14px;
+}
+
+.jobHeader a {
+  color: rgba(31,56,88,0.60);
+}
+
+.item {
+  padding: 0 14px;
+  line-height: 50px;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  color: rgba(0,0,0, 0.6);
+  font-size: 14px;
+}
+
+.name {
+  width: 400px;
+  color: #3C99D8;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.base {
+  width: 202px;
+}
+
+.time {
+  width: 70px;
+  text-align: right;
+}
